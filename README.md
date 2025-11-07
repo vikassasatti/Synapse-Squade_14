@@ -52,3 +52,14 @@ Built with React + TypeScript (Vite) for speed and cross-device usability.
 ```bash
 git clone https://github.com/<your-username>/Smart-Medicine-Locator.git
 cd Smart-Medicine-Locator
+2️⃣ Backend Setup
+cd backend
+npm install
+cp .env.example .env
+# Add your MongoDB connection string in .env
+npm run dev
+
+3️⃣ Frontend Setup
+cd ../frontend   # or the folder where index.html / vite.config.ts is located
+npm install
+npm run dev
